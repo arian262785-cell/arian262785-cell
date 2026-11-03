@@ -7,16 +7,22 @@ Focused on deterministic signal processing, low-level compute kernels (`C++` / `
 
 ## ILONA - 100% Local Sovereign AI Core (0 Bytes WAN) & Optional Web Expansion (Black-Box Showcase)
 
-![ILONA Workspace Black-Box Showcase](showcase/ilona_blackbox_showcase.gif)
+> **Official Platform & Protected `ILONA.app` Download (Zero-Knowledge Binary Seal - `I = 0.0000 Bits`):**
+> - **Live Platform:** **[`https://ariila.de`](https://ariila.de)** | **3-Pillar Portal:** **[`https://ariila.de/platform`](https://ariila.de/platform)**
+> - **Direct macOS Universal Download (`arm64` + `x86_64`):** **[Download `ILONA-macOS.dmg`](https://ariila.de/downloads/ILONA-macOS.dmg)** | **[Download `ILONA-macOS.zip`](https://ariila.de/downloads/ILONA-macOS.zip)** | **[`SHA256SUMS.txt`](https://ariila.de/downloads/SHA256SUMS.txt)**
+> - **1080p Black-Box Showcase Video (`16:9` MP4):** **[`showcase/ILONA_BLACKBOX_WORKSPACE_SHOWCASE.mp4`](showcase/ILONA_BLACKBOX_WORKSPACE_SHOWCASE.mp4)** | **[9:16 Vertical Reel (`MP4`)](showcase/ILONA_BLACKBOX_VERTICAL_REEL_9x16.mp4)**
 
-* **Official Live Platform & Enterprise Portal:** **[`https://ariila.de`](https://ariila.de)** | **[`https://ariila.de/platform`](https://ariila.de/platform)**
+[![ILONA Workspace Black-Box Showcase - Download at https://ariila.de](showcase/ilona_blackbox_showcase.gif)](https://ariila.de)
+
+* **Official Live Platform & Direct Protected `ILONA.app` Download (macOS `.dmg` & `.zip`):** **[`https://ariila.de`](https://ariila.de)** | **[`https://ariila.de/platform`](https://ariila.de/platform)**
+* **Three Sovereign Pillars on `https://ariila.de`:** (1) **Industry, Semiconductor & Automotive** | (2) **Mittelstand & Confidential Professions (`Section 203 StGB` - `2,500 EUR/month` 5-device package)** | (3) **Every Individual (`from 8 GB RAM / 10 EUR/month` scaling by Factor 2 up to `256 GB RAM / 320 EUR/month`) & Education (`0 EUR/month` permanently free for verified school and university students)**
 * **Full 1080p MP4 Video Showcase (`16:9`, 48 kHz Audio):** [`showcase/ILONA_BLACKBOX_WORKSPACE_SHOWCASE.mp4`](showcase/ILONA_BLACKBOX_WORKSPACE_SHOWCASE.mp4) | **[Watch on YouTube (`16:9`)](https://www.youtube.com/watch?v=ZQLgbScmJ_o)**
 * **Vertical Audit Reel (`9:16`, 48 kHz Audio):** [`showcase/ILONA_BLACKBOX_VERTICAL_REEL_9x16.mp4`](showcase/ILONA_BLACKBOX_VERTICAL_REEL_9x16.mp4) | **[Watch on YouTube Shorts (`9:16`)](https://www.youtube.com/shorts/X4bgIpNJQCQ)**
 * **Technical Specification & Verification Index:** **[`https://arian262785-cell.github.io`](https://arian262785-cell.github.io)**
-* **High-Resolution Auditor Views:** [OS Socket & RAM Audit (0 Bytes Outbound)](showcase/ilona_blackbox_01.png) | [Live Contract & Hospital Clause Stress-Test](showcase/ilona_blackbox_02.png) | [5-Stage Independent Auditor Scorecard](showcase/ilona_blackbox_03.png) | [VS Code-Style Folder & Domain Switcher](showcase/ilona_blackbox_04.png) | [100% Local Offline vs. Optional Web Scaling Split](showcase/ilona_blackbox_05.png)
+* **High-Resolution Auditor Views:** [OS Socket & RAM Audit (0 Bytes Outbound)](showcase/ilona_blackbox_01.png) | [Live Contract & Hospital Clause Stress-Test](showcase/ilona_blackbox_02.png) | [5-Stage Independent Auditor Scorecard](showcase/ilona_blackbox_03.png) | [Sovereign Folder & Domain Workspace Switcher](showcase/ilona_blackbox_04.png) | [100% Local Offline vs. Optional Web Scaling Split](showcase/ilona_blackbox_05.png)
 
 > **1. Architectural Distinction - 100% Local Sovereign Core (`0 Bytes WAN`) vs. Optional Web-Connected Mode:**
-> ILONA is a **completely local sovereign AI system** - NOT a cloud wrapper or conventional API frontend. Even with Wi-Fi and Ethernet physically disconnected (`127.0.0.1:8788` loopback only, `0 Bytes` WAN traffic), ILONA executes **`120B` to `4,000B` parameter capacity 100% offline** on local Apple Silicon Unified Memory at **`68.68 tok/s` (`14.5603 ms/tok`)** within an **`18.4 W - 35.0 W`** thermal envelope (`0 Bytes` SSD swap thrashing). Only when the user explicitly toggles ON **Optional Web Mode** does ILONA couple its local core with external web/domain graphs to expand total reachable parameter and knowledge capacity to **`500B - 16,000B`** while keeping local client vaults strictly isolated.
+> ILONA is a **completely local sovereign AI system** - NOT a cloud wrapper or remote server frontend. Even with Wi-Fi and Ethernet physically disconnected (`127.0.0.1:8788` loopback only, `0 Bytes` WAN traffic), ILONA executes **`120B` to `4,000B` parameter capacity 100% offline** on local Apple Silicon Unified Memory at **`68.68 tok/s` (`14.5603 ms/tok`)** within an **`18.4 W - 35.0 W`** thermal envelope (`0 Bytes` SSD swap thrashing). Only when the user explicitly toggles ON **Optional Web Mode** does ILONA couple its local core with live web/domain graphs to expand total reachable parameter and knowledge capacity to **`500B - 16,000B`** while keeping local client vaults strictly isolated.
 
 | Unified RAM Tier | 100% Local Offline Capacity (`0 Bytes WAN`) | Optional Web-Connected Capacity (`Web Mode ON`) | Resident Wired RAM (`vm_stat` Pageouts = 0) | Active Memory Stream (`@ 68.68 tok/s`) | Sustained Paced Speed (`68 / 77` Ratio) | Package Power (`Energy / Token`) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -31,7 +37,7 @@ Focused on deterministic signal processing, low-level compute kernels (`C++` / `
 
 | Verification Parameter | Measured Black-Box Value | Mathematical Proof & OS Verification (Shown in Video) |
 | :--- | :--- | :--- |
-| **1. Kernel Socket & WAN Isolation** | `127.0.0.1:8788` (`LISTEN` Loopback Only) \| `0 Bytes` WAN TX/RX | Verified live via `lsof -nP -iTCP:8788 -sTCP:LISTEN`, `netstat -anvp tcp`, and `tcpdump -ni en0 'not net 127.0.0.0/8'` (`0` external packets, `0` DNS queries, `0` cloud API calls; external web connectors hard-blocked in Local Mode). |
+| **1. Kernel Socket & WAN Isolation** | `127.0.0.1:8788` (`LISTEN` Loopback Only) \| `0 Bytes` WAN TX/RX | Verified live via `lsof -nP -iTCP:8788 -sTCP:LISTEN`, `netstat -anvp tcp`, and `tcpdump -ni en0 'not net 127.0.0.0/8'` (`0` external packets, `0` DNS queries, `0` remote cloud transfers; 100% isolated local loopback in Local Mode). |
 | **2. Harmonic Pacing & Memory Telemetry** | `68.68 tok/s` (`14.5603 ms/tok`) \| `6.42 GiB` Wired (`Pageouts: 0`) | Exact rational pacing `68.68 / 77.77 = 68 / 77` (`1000 / 68.68 = 14.5603 ms/tok` vs. `12.8584 ms/tok`, yielding `+1.7019 ms` deterministic verification time per token; `420,736 x 16,384 B = 6.42 GiB` wired RAM at `18.4 W`). |
 | **3. Audit Case 1 - Multi-Tier Contract Math** | `32,280.00 EUR` Verified vs. `32,000.00 EUR` Draft (`+280.00 EUR` Caught) | Exact arithmetic proof: `(6 * 2,500.00 + 6 * 3,200.00) * (1 - 0.10) + 1,500.00 = 34,200.00 * 0.90 + 1,500.00 = 30,780.00 + 1,500.00 = 32,280.00 EUR` net (`0 Bytes` WAN). |
 | **4. Audit Case 2 - Missing Annex B Gate** | `0.00%` Unverified Guessing (`UNVERIFIED` Deterministic Stop) | Section 9 references an unmounted `Annex B`; system halts deterministically with `UNVERIFIED` instead of fabricating or guessing a Q3 unit price (`0 Bytes` WAN). |
