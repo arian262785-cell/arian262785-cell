@@ -10,6 +10,7 @@ Focused on deterministic signal processing, low-level compute kernels (`C++` / `
 > **Official Platform & Protected `ILONA.app` Download (Zero-Knowledge Binary Seal - `I = 0.0000 Bits`):**
 > - **Live Platform:** **[`https://ariila.de`](https://ariila.de)** | **3-Pillar Portal:** **[`https://ariila.de/platform`](https://ariila.de/platform)**
 > - **Direct macOS Universal Download (`arm64` + `x86_64`):** **[Download `ILONA-macOS.dmg`](https://ariila.de/downloads/ILONA-macOS.dmg)** | **[Download `ILONA-macOS.zip`](https://ariila.de/downloads/ILONA-macOS.zip)** | **[`SHA256SUMS.txt`](https://ariila.de/downloads/SHA256SUMS.txt)**
+> - **NEW - ILONA & Its Meaning for the World (Faceless System Masterfilm `16:9` & `9:16` MP4):** **[`showcase/ILONA_BEDEUTUNG_FUER_DIE_WELT_16x9.mp4`](showcase/ILONA_BEDEUTUNG_FUER_DIE_WELT_16x9.mp4)** | **[`showcase/ILONA_BEDEUTUNG_FUER_DIE_WELT_REEL_9x16.mp4`](showcase/ILONA_BEDEUTUNG_FUER_DIE_WELT_REEL_9x16.mp4)**
 > - **1080p Black-Box Showcase Video (`16:9` MP4):** **[`showcase/ILONA_BLACKBOX_WORKSPACE_SHOWCASE.mp4`](showcase/ILONA_BLACKBOX_WORKSPACE_SHOWCASE.mp4)** | **[9:16 Vertical Reel (`MP4`)](showcase/ILONA_BLACKBOX_VERTICAL_REEL_9x16.mp4)**
 
 [![ILONA Workspace Black-Box Showcase - Download at https://ariila.de](showcase/ilona_blackbox_showcase.gif)](https://ariila.de)
